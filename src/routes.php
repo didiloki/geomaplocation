@@ -77,8 +77,6 @@ $app->get('/routes/{token}', function (Request $request, Response $response, arr
           ]);
   }
 
-
-
   foreach($data as $a){
     $lat_long = array();
     array_push($lat_long, $a['lat'], $a['long']);
